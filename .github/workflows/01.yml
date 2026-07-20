@@ -18,8 +18,8 @@ jobs:
 
     - name: Build & Push Image
       run: |
-        docker build -t kastrov/streamflix:v1 .
-        docker push kastrov/streamflix:v1
+        docker build -t bpranayraj/streamflix:v1 .
+        docker push bpranayraj/streamflix:v1
 
     - name: Deploy BLUE to EKS
       run: |
