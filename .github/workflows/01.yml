@@ -24,4 +24,4 @@ jobs:
     - name: Deploy BLUE to EKS
       run: |
         kubectl apply -f k8s/deployment.yaml
-        kubectl apply -f k8s/service-stable.yamlx
+        kubectl apply -f k8s/service-stable.yaml
