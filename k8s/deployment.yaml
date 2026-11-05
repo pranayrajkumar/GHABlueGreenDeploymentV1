@@ -20,5 +20,6 @@ spec:
       containers:
       - name: streamflix-v1
         image: bpranayraj/streamflix:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
